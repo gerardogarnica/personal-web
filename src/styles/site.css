@@ -1,0 +1,23 @@
+@import url(./header.css);
+
+:root {
+    --header-background-color: #0055AA;
+    --primary-highlight-color: #47B5FF;
+    --secondary-highlight-color: #FDF0E0;
+    --max-width-container: 1024px;
+    --text-color: #FDF0E0;
+    --all-transitions: all 0.5s;
+}
+
+.body {
+    color: #000;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12pt;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.main {
+    overflow: hidden;
+}

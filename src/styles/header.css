@@ -1,0 +1,102 @@
+.header {
+    background-color: var(--header-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: var(--all-transitions);
+}
+
+.header-nav {
+    padding: 10px 0;
+    transition: var(--all-transitions);
+}
+
+.header-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav-logo {
+    display: flex;
+    height: 5rem;
+    overflow: hidden;
+    padding: 0;
+    transition: var(--all-transitions);
+}
+
+.header-nav-logo:hover {
+    opacity: 0.6;
+}
+
+.header-nav-logo img {
+    height: 100%;
+}
+
+.header-nav-menu-container {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    letter-spacing: 1px;
+}
+
+.header-nav-menu-link-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-nav-menu-link-list li {
+    display: flex;
+}
+.header-nav-menu-link-list li a {
+    position: relative;
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-nav-menu-link-list li.active a,
+.header-nav-menu-link-list li a:focus,
+.header-nav-menu-link-list li a:hover {
+    color: var(--primary-highlight-color);
+}
+.header-nav-menu-link-list li a::after {
+    background-color: var(--secondary-highlight-color);
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.125rem;
+    width: 0;
+    height: 0.0625rem;
+    transition: var(--all-transitions);
+}
+.header-nav-menu-link-list li.active a::after,
+.header-nav-menu-link-list li a:hover::after {
+    width: 100%;
+}
+
+@media (min-width: 46em) {
+    .header-nav-menu-container {
+        flex-direction: row-reverse;
+    }
+
+    .header-nav-menu-link-list {
+        position: static;
+        flex-direction: row;
+        gap: 1rem;
+        padding-right: 1rem;
+        width: auto;
+    }
+}
