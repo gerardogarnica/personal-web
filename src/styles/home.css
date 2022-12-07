@@ -52,6 +52,42 @@
     padding: 0 0.5em;
 }
 
+.home-curriculum {
+    background-color: var(--secondary-highlight-color);
+    opacity: 0.8;
+    border-radius: 0.5em;
+    font-size: 12px;
+    font-weight: 600;
+    height: 2.6rem;
+    margin-top: 10px;
+    place-self: center;
+    width: 200px;
+}
+.home-curriculum:hover {
+    background-color: var(--secondary-highlight-color);
+    opacity: 1;
+}
+.home-curriculum a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--secondary-text-color);
+    height: inherit;
+    justify-content: center;
+    text-decoration: none;
+    width: inherit;
+}
+.home-curriculum a:hover {
+    font-size: 16px;
+    transition-duration: 200ms;
+}
+.home-curriculum span {
+    height: 30px;
+}
+.home-curriculum-text {
+    margin-top: 10px;
+    padding: 0 12px;
+}
+
 .home-picture {
     display: flex;
     justify-content: center;
@@ -82,15 +118,21 @@
     .home-info h2 {
         font-size: 1.5rem;
     }
-
     .home-info h3 {
         font-size: 1.2em;
     }
-
     .home-info p {
         font-size: 16px;
         margin: 12px 0;
         padding: 0;
+    }
+
+    .home-curriculum {
+        font-size: 15px;
+        height: 3rem;
+        margin-top: 20px;
+        place-self: start;
+        width: 250px;
     }
 
     .home-picture-img {
