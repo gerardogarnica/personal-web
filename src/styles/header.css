@@ -5,6 +5,7 @@
     left: 0;
     width: 100%;
     z-index: 100;
+    font-family: var(--header-text-font-family);
     transition: var(--all-transitions);
 }
 
@@ -40,6 +41,7 @@
     display: flex;
     gap: 1rem;
     letter-spacing: 1px;
+    opacity: 0;
 }
 
 .header-nav-menu-link-list {
@@ -90,6 +92,7 @@
 @media (min-width: 46em) {
     .header-nav-menu-container {
         flex-direction: row-reverse;
+        opacity: 1;
     }
 
     .header-nav-menu-link-list {

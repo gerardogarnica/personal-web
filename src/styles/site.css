@@ -1,17 +1,22 @@
 @import url(./header.css);
+@import url(./home.css);
 
 :root {
     --header-background-color: #0055AA;
+    --initial-background-color: #6B728E;
+    --end-background-color: #474E68;
     --primary-highlight-color: #47B5FF;
     --secondary-highlight-color: #FDF0E0;
     --max-width-container: 1024px;
+    --header-text-font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    --main-text-font-family: Poppins;
     --text-color: #FDF0E0;
     --all-transitions: all 0.5s;
 }
 
 .body {
     color: #000;
-    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--main-text-font-family);
     font-size: 12pt;
     margin: 0;
     overflow-x: hidden;
