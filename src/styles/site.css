@@ -2,6 +2,7 @@
 @import url(./home.css);
 
 :root {
+    scroll-behavior: smooth;
     --header-background-color: #0055AA;
     --initial-background-color: #6B728E;
     --end-background-color: #474E68;
