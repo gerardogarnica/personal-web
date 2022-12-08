@@ -1,12 +1,9 @@
 .home {
-    background: linear-gradient(270deg, var(--initial-background-color), var(--end-background-color) 30%);
-    color: var(--text-color);
-    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     gap: 0;
     min-height: 100vh;
+    padding: 0!important;
     position: relative;
     overflow: hidden;
 }
@@ -15,9 +12,8 @@
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    justify-content: center;
     gap: 0;
-    margin-top: 0;/* 100px */
+    margin-top: 0;
     text-align: center;
 }
 
@@ -76,10 +72,6 @@
     text-decoration: none;
     width: inherit;
 }
-.home-curriculum a:hover {
-    font-size: 16px;
-    transition-duration: 200ms;
-}
 .home-curriculum span {
     height: 30px;
 }
@@ -104,7 +96,6 @@
         display: grid;
         grid-template-columns: 2fr 250px;
         gap: 2rem;
-        max-width: 75%;
     }
 
     .home-info {
@@ -134,6 +125,13 @@
         place-self: start;
         width: 250px;
     }
+    .home-curriculum a:hover {
+        font-size: 16px;
+        transition-duration: 200ms;
+    }
+    .home-curriculum-text {
+        margin-top: 8px;
+    }
 
     .home-picture-img {
         width: 100%;
@@ -141,10 +139,6 @@
 }
 
 @media (min-width: 70em) {
-    .home-container {
-        max-width: 70%;
-    }
-
     .home-picture-img {
         width: 100%;
     }

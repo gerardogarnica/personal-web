@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./home.css);
+@import url(./experience.css);
 
 :root {
     scroll-behavior: smooth;
@@ -13,18 +14,53 @@
     --main-text-font-family: Poppins;
     --text-color: #FDF0E0;
     --secondary-text-color: #0E1015;
-    --all-transitions: all 0.5s;
+    --all-transitions: all 0.5s ease;
 }
 
 .body {
-    color: #000;
+    color: var(--text-color);
     font-family: var(--main-text-font-family);
-    font-size: 12pt;
+    font-size: 12px;
     margin: 0;
     overflow-x: hidden;
-    text-align: center;
 }
 
 .main {
     overflow: hidden;
+}
+
+.section {
+    background: linear-gradient(270deg, var(--initial-background-color), var(--end-background-color) 30%);
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    padding-top: 4rem;
+}
+.section-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.section-info {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 8px 0;
+    padding: 0 1.2em;
+}
+
+@media (min-width: 46em) {
+    .body {
+        font-size: 16px;
+    }
+    .section-container {
+        width: 75%;
+    }
+    .section-title {
+        font-size: 3rem;
+    }
+    .section-info {
+        font-size: 16px;
+        margin: 12px 0;
+        padding: 0;
+    }
 }
