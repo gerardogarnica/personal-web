@@ -26,6 +26,7 @@
     overflow: hidden;
     padding: 0;
     transition: var(--all-transitions);
+    z-index: 100;
 }
 
 .header-nav-logo:hover {
@@ -125,12 +126,12 @@
 .header-nav-menu-link-list li a {
     position: relative;
     color: var(--text-color);
-    font-size: 12pt;
+    font-size: 16pt;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
 }
-.header-nav-menu-link-list li.active a,
+.header-nav-menu-link-list li a.active,
 .header-nav-menu-link-list li a:focus,
 .header-nav-menu-link-list li a:hover {
     color: var(--primary-highlight-color);
@@ -145,7 +146,7 @@
     height: 0.0625rem;
     transition: var(--all-transitions);
 }
-.header-nav-menu-link-list li.active a::after,
+.header-nav-menu-link-list li a.active::after,
 .header-nav-menu-link-list li a:hover::after {
     width: 100%;
 }
