@@ -1,13 +1,28 @@
+.contact {
+    padding-bottom: 3em;
+}
+.contact-container {
+    width: 70%;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .contact-info a {
     text-decoration: none;
 }
-
 .contact-info a svg {
     color: var(--text-color);
     height: 2em;
     width: 2em;
 }
-
 .contact-info a svg:hover {
     color: var(--primary-highlight-color);
+}
+
+@media (min-width: 46em) {
+    .contact-container {
+        width: 40%!important;
+    }
 }
