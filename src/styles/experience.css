@@ -1,8 +1,51 @@
-.experience {
-    position: relative;
-    overflow: hidden;
+.experience-info {
+    display: flex;
+    flex-direction: column;
 }
 
-.experience-container {
-    padding: 0;
+.experience-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.experience-detail.separator {
+    border-bottom: 1px solid var(--secondary-highlight-color);
+    padding-bottom: 1em;;
+}
+
+.experience-detail-company p {
+    margin: 0;
+}
+.experience-detail-company-name {
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+.experience-detail-company-period {
+    font-size: 11px;
+}
+
+.experience-detail-info {
+    font-size: 12px;
+}
+
+@media (min-width: 46em) {
+    .experience-detail {
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .experience-detail-company {
+        width: 25%;
+    }
+
+    .experience-detail-company-period {
+        font-size: 14px;
+    }
+
+    .experience-detail-info {
+        font-size: 15px;
+        width: 75%;
+    }
 }
