@@ -19,6 +19,7 @@
     margin: 0;
 }
 .experience-detail-company-name {
+    font-size: 14px;
     font-weight: bold;
     letter-spacing: 1.8px;
 }
@@ -39,7 +40,9 @@
     .experience-detail-company {
         width: 25%;
     }
-
+    .experience-detail-company-name {
+        font-size: inherit;
+    }
     .experience-detail-company-period {
         font-size: 14px;
     }
