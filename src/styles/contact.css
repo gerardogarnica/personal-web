@@ -19,10 +19,11 @@
 }
 .contact-info a svg:hover {
     color: var(--primary-highlight-color);
+    transform: scale(1.5, 1.5);
 }
 
 @media (min-width: 46em) {
     .contact-container {
-        width: 40%!important;
+        width: 350px!important;
     }
 }

@@ -44,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 12px;
-    opacity: 0.9;
+    opacity: 0.95;
     padding: 2rem;
     transition: var(--all-transitions);
     width: 100%;
@@ -54,6 +54,14 @@
     font-size: inherit;
     margin: 0;
     padding: 8px 16px;
+    text-align: center;
+    width: 100%;
+}
+.projects-info-content h3 {
+    color: var(--text-highlight-color);
+    font-size: inherit;
+    margin: 0;
+    padding-top: 8px;
     text-align: center;
     width: 100%;
 }
@@ -92,7 +100,7 @@
     }
 
     .projects-info-card {
-        height: 350px;
+        height: 300px;
     }
 
     .projects-info-content {
@@ -102,6 +110,15 @@
     }
     .projects-info-content h2 {
         font-size: 16px;
+    }
+    .projects-info-content h3 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 70em) {
+    .projects-info {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -119,5 +136,9 @@
         height: 350px;
         justify-content: center;
         transform: translateY(0);
+    }
+
+    .projects-info-content h2 {
+        border-bottom: solid 1px var(--secondary-highlight-color);
     }
 }
