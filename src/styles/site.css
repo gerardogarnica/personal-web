@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./home.css);
 @import url(./experience.css);
+@import url(./projects.css);
 @import url(./contact.css);
 
 :root {
@@ -58,7 +59,7 @@
         font-size: 16px;
     }
     .section-container {
-        width: 75%;
+        width: 80%;
     }
     .section-title {
         font-size: 3rem;
