@@ -7,8 +7,8 @@
 :root {
     scroll-behavior: smooth;
     --header-background-color: #0055AA;
-    --initial-background-color: #6B728E;
-    --end-background-color: #474E68;
+    --primary-theme-color: #6B728E;
+    --secondary-theme-color: #474E68;
     --primary-highlight-color: #47B5FF;
     --secondary-highlight-color: #FDF0E0;
     --max-width-container: 1024px;
@@ -27,6 +27,16 @@
     margin: 0;
     overflow-x: hidden;
 }
+.body-light {
+    --header-background-color: #E8F9FD;
+    --primary-theme-color: #F9F6F7;
+    --secondary-theme-color: #F4F9F9;
+    --primary-highlight-color: #0AA1DD;
+    --secondary-highlight-color: #0E1015;
+    --text-color: #0E1015;
+    --secondary-text-color: #FDF0E0;
+    --text-highlight-color: #0AA1DD;
+}
 .body-no-scroll {
     overflow-y: hidden;
 }
@@ -36,7 +46,7 @@
 }
 
 .section {
-    background: linear-gradient(270deg, var(--initial-background-color), var(--end-background-color) 30%);
+    background: linear-gradient(270deg, var(--primary-theme-color), var(--secondary-theme-color) 30%);
     display: flex;
     justify-content: center;
     line-height: 1.5;
