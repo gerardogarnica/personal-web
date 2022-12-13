@@ -11,6 +11,7 @@
     background-size: cover;
     border: 1px solid var(--secondary-highlight-color);
     border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--secondary-text-color);
     margin: 0;
     overflow: hidden;
     width: 100%;
@@ -38,7 +39,7 @@
 }
 
 .projects-info-content {
-    background-color: var(--initial-background-color);
+    background-color: var(--primary-theme-color);
     position: relative;
     display: flex;
     flex-direction: column;
