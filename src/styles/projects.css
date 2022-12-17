@@ -39,7 +39,7 @@
 }
 
 .projects-info-content {
-    background-color: var(--primary-theme-color);
+    background-color: var(--primary-highlight-color);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@
     opacity: 1;
 }
 .projects-info-links a svg:hover {
-    color: var(--primary-highlight-color);
+    color: var(--secondary-highlight-color);
     transform: scale(1.5, 1.5);
 }
 
