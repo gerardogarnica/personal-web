@@ -1,3 +1,92 @@
+.experience-timeline {
+    position: relative;
+    box-sizing: border-box;
+}
+.experience-timeline-line {
+    position: absolute;
+    background-color: var(--primary-highlight-color);
+    height: 100%;
+    width: 4px;
+    left: 38px;
+    top: 15px;
+    transform: translateX(-50%);
+}
+
+.experience-card {
+    display: flex;
+    margin: 30px 0 3px 60px;
+}
+.left {
+    justify-content: flex-start;
+}
+.right {
+    justify-content: flex-end;
+}
+
+.experience-card-content {
+    position: relative;
+    background-color: var(--primary-highlight-color);
+    /* border: solid 1px var(--secondary-highlight-color); */
+    border-radius: 10px;
+    padding: 20px 12px;
+    width: 100%;
+}
+.experience-card-content::before {
+    content: '';
+    position: absolute;
+    background-color: var(--primary-highlight-color);
+    /* border: solid 1px var(--secondary-highlight-color); */
+    height: 15px;
+    width: 15px;
+    top: 27px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+.left .experience-card-content::before {
+    left: -7px;
+    right: -7px;
+}
+.right .experience-card-content::before {
+    left: -7px;
+}
+
+.experience-card-content-step {
+    position: absolute;
+    background-color: var(--primary-highlight-color);
+    border: 4px solid var(--secondary-highlight-color);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.left .experience-card-content-step {
+    top: 15px;
+    left: -55px;
+    right: -55px;
+}
+.right .experience-card-content-step {
+    top: 15px;
+    left: -55px;
+}
+
+.experience-card-content-company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.experience-card-content-company-name {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+}
+.experience-card-content-company-period {
+    font-size: 12px;
+}
+.experience-card-content p {
+    font-size: 14px;
+    margin: 16px 0 10px 0;
+}
+/*
 .experience-info {
     display: flex;
     flex-direction: column;
@@ -29,9 +118,30 @@
 
 .experience-detail-info {
     font-size: 12px;
-}
+}*/
 
 @media (min-width: 46em) {
+    .experience-timeline-line {
+        left: 50%;
+    }
+
+    .experience-card {
+        margin: 0 0 30px 0;
+    }
+
+    .experience-card-content {
+        width: calc(50% - 60px);
+    }
+    .left .experience-card-content::before {
+        left: unset;
+    }
+    .left .experience-card-content-step {
+        left: unset;
+    }
+
+
+
+
     .experience-detail {
         flex-direction: row;
         gap: 2em;
