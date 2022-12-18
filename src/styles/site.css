@@ -16,7 +16,7 @@
     --main-text-font-family: Poppins;
     --text-color: #FDF0E0;
     --secondary-text-color: #0E1015;
-    --text-highlight-color: #DAE66B;
+    --text-highlight-color: #F2F7A1;
     --all-transitions: all 0.5s ease;
 }
 
@@ -31,11 +31,11 @@
     --header-background-color: #B2C8DF;
     --primary-theme-color: #F9F6F7;
     --secondary-theme-color: #F4F9F9;
-    --primary-highlight-color: #0AA1DD;
+    --primary-highlight-color: #39A2DB;
     --secondary-highlight-color: #0E1015;
     --text-color: #0E1015;
     --secondary-text-color: #FDF0E0;
-    --text-highlight-color: #0AA1DD;
+    --text-highlight-color: #A2DBFA;
 }
 .body-no-scroll {
     overflow-y: hidden;
