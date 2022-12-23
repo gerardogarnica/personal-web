@@ -82,3 +82,9 @@
         padding: 0;
     }
 }
+
+@media (min-width: 64em) {
+    .section-container {
+        width: 70%;
+    }
+}
