@@ -9,7 +9,7 @@
     --header-background-color: #0055AA;
     --primary-theme-color: #6B728E;
     --secondary-theme-color: #474E68;
-    --primary-highlight-color: #47B5FF;
+    --primary-highlight-color: #579BB1;
     --secondary-highlight-color: #FDF0E0;
     --max-width-container: 1024px;
     --header-text-font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
@@ -31,11 +31,11 @@
     --header-background-color: #B2C8DF;
     --primary-theme-color: #F9F6F7;
     --secondary-theme-color: #F4F9F9;
-    --primary-highlight-color: #39A2DB;
+    --primary-highlight-color: #B9E0FF;
     --secondary-highlight-color: #0E1015;
     --text-color: #0E1015;
     --secondary-text-color: #FDF0E0;
-    --text-highlight-color: #A2DBFA;
+    --text-highlight-color: #6C4AB6;
 }
 .body-no-scroll {
     overflow-y: hidden;
