@@ -1,4 +1,6 @@
 'use strict';
+import data from '../data/site-ES.json' assert { type: 'json' };
+import setExperiences from './experience.js';
 
 const documentReady = () => {
     const body = document.querySelector(".body");
@@ -72,6 +74,8 @@ const documentReady = () => {
             headerNavMenuContainer.classList.remove("header-nav-menu-container-open");
         })
     );
+
+    setExperiences(data);
 
     document.addEventListener('scroll', documentScroll);
     headerNavToggle.addEventListener('click', toggleMenu);
