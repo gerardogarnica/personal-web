@@ -1,0 +1,77 @@
+{
+  "home": {
+    "id": 0,
+    "name": "Gerardo Garnica",
+    "title": "Back End Developer Sr. 💻",
+    "mainDescription": "+16 años de experiencia en desarrollo back-end para soluciones empresariales con <b>.NET</b> y <b>C#</b>, construyendo API's con enfoque en el uso de patrones y mejores prácticas en diseño de aplicaciones.",
+    "secondaryDescription": "Apasionado por el aprendizaje y por la aplicación de nuevas tecnologías. Me agrada ser miembro de equipos colaborativos donde todos podamos aprender de los demás.",
+    "cvUri": "docs/Gerardo-Garnica-ES.pdf"
+  },
+  "experiences": [
+    {
+      "id": 0,
+      "company": "Aktiun",
+      "period": "2022 - actualidad",
+      "details": [
+        {
+          "id": 0,
+          "position": "Software Engineer.",
+          "description": "Desarrollo front-end y back-end de aplicaciones web utilizando HTML, CSS, ASP.NET, .NET Core, .NET Framework, C#, SQL Server."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "company": "Grupo Difare",
+      "period": "2011 - 2022",
+      "details": [
+        {
+          "id": 0,
+          "position": "Arquitecto de Software.",
+          "description": "Definiciones de diseño y construcción de aplicaciones de software en base a estándares y normas en conjunto con los equipos de desarrollo."
+        },
+        {
+          "id": 1,
+          "position": "Desarrollador Senior.",
+          "description": "Desarrollo front-end y back-end de aplicaciones, componentes y servicios utilizando ASP.NET, .NET Core, .NET Framework, C#, VB.NET, SQL Server."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Cheine Consulting",
+      "period": "2010 - 2011",
+      "details": [
+        {
+          "id": 0,
+          "position": "Software Development Consultant.",
+          "description": "Desarrollo de integraciones con Microsoft Dynamics para los módulos de gestión de órdenes y logística de una aplicación web ASP.NET utilizada por diversos clientes como Brightstar Corp."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Image Tech",
+      "period": "2010",
+      "details": [
+        {
+          "id": 0,
+          "position": "Desarrollador Senior.",
+          "description": "Diseño, desarrollo y despliegue de soluciones de comercio electrónico y banca electrónica con ASP.NET y C# para tiendas retail, bancos y cadenas de comida."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Nutedecsa",
+      "period": "2005 - 2010",
+      "details": [
+        {
+          "id": 0,
+          "position": "Desarrollador Senior.",
+          "description": "Diseño y desarrollo de ERP para retails con ASP.NET y C# con módulos de ventas, compras, inventarios, entre otros."
+        }
+      ]
+    }
+  ]
+}
