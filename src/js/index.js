@@ -1,5 +1,6 @@
 'use strict';
 import data from '../data/site-ES.json' assert { type: 'json' };
+import setHomeInfo from './home.js';
 import setExperiences from './experience.js';
 
 const documentReady = () => {
@@ -75,6 +76,7 @@ const documentReady = () => {
         })
     );
 
+    setHomeInfo(data);
     setExperiences(data);
 
     document.addEventListener('scroll', documentScroll);
