@@ -2,6 +2,7 @@
 import data from '../data/site-ES.json' assert { type: 'json' };
 import setHomeInfo from './home.js';
 import setExperiences from './experience.js';
+import setSectionTitles from './sections.js';
 
 const documentReady = () => {
     const body = document.querySelector(".body");
@@ -78,6 +79,7 @@ const documentReady = () => {
 
     setHomeInfo(data);
     setExperiences(data);
+    setSectionTitles(data);
 
     document.addEventListener('scroll', documentScroll);
     headerNavToggle.addEventListener('click', toggleMenu);

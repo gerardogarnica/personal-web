@@ -1,4 +1,9 @@
 {
+  "sections": {
+    "experiences": "Experiencia",
+    "projects": "Proyectos",
+    "about": "Sobre mí"
+  },
   "home": {
     "id": 0,
     "name": "Gerardo Garnica",
