@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    gap: 0;
+    gap: 2rem;
     margin-top: 0;
     text-align: center;
 }
@@ -20,9 +20,11 @@
 .home-info {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .home-info h1 {
+    color: var(--text-highlight-color);
     font-size: 2rem;
     font-weight: 500;
     margin: 0;
@@ -31,14 +33,14 @@
 .home-info h2 {
     font-size: 1rem;
     font-weight: 200;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .home-info h3 {
     font-size: 1em;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-top: 6px;
+    margin: 0;
 }
 
 .home-info p {
@@ -97,16 +99,16 @@
 @media (min-width: 46em) {
     .home-container {
         display: grid;
-        grid-template-columns: 2fr 250px;
-        gap: 2rem;
+        grid-template-columns: 2fr 25em;
     }
 
     .home-info {
+        gap: 30px;
         text-align: start;
     }
 
     .home-info h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .home-info h2 {
