@@ -117,7 +117,7 @@
     }
 }
 
-@media (min-width: 70em) {
+@media (min-width: 82em) {
     .projects-info {
         grid-template-columns: repeat(3, 1fr);
     }
