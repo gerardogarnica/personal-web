@@ -7,10 +7,7 @@
   "home": {
     "id": 0,
     "name": "Gerardo Garnica",
-    "title": "Back End Developer Sr. 💻",
-    "mainDescription": "+16 años de experiencia en desarrollo back-end para soluciones empresariales con <b>.NET</b> y <b>C#</b>, construyendo API's con enfoque en el uso de patrones y mejores prácticas en diseño de aplicaciones.",
-    "secondaryDescription": "Apasionado por el aprendizaje y por la aplicación de nuevas tecnologías. Me agrada ser miembro de equipos colaborativos donde todos podamos aprender de los demás.",
-    "cvUri": "docs/Gerardo-Garnica-ES.pdf"
+    "title": "Back End Developer Sr. 💻"
   },
   "experiences": [
     {
@@ -78,5 +75,10 @@
         }
       ]
     }
-  ]
+  ],
+  "about": {
+    "mainDescription": "+16 años de experiencia en desarrollo back-end para soluciones empresariales con <b>.NET</b> y <b>C#</b>, construyendo API's con enfoque en el uso de patrones y mejores prácticas en diseño de aplicaciones.",
+    "secondaryDescription": "Apasionado por el aprendizaje y por la aplicación de nuevas tecnologías. Me agrada ser miembro de equipos colaborativos donde todos podamos aprender de los demás.",
+    "cvUri": "docs/Gerardo-Garnica-ES.pdf"
+  }
 }
