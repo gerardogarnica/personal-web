@@ -1,0 +1,104 @@
+.background-objects {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-objects li {
+    background: var(--background-objects-color);
+    position: absolute;
+    display: block;
+    list-style: none;
+    height: 20px;
+    width: 20px;
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+}
+
+.background-objects li:nth-child(1) {
+    left: 25%;
+    height: 80px;
+    width: 80px;
+    animation-delay: 0s;
+    animation-duration: 6s;
+}
+.background-objects li:nth-child(2) {
+    left: 5%;
+    height: 50px;
+    width: 50px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+.background-objects li:nth-child(3) {
+    left: 70%;
+    height: 20px;
+    width: 20px;
+    animation-delay: 4s;
+    animation-duration: 4s;
+}
+.background-objects li:nth-child(4) {
+    left: 40%;
+    height: 60px;
+    width: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+.background-objects li:nth-child(5) {
+    left: 30%;
+    height: 20px;
+    width: 20px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+}
+.background-objects li:nth-child(6) {
+    left: 75%;
+    height: 120px;
+    width: 120px;
+    animation-delay: 3s;
+    animation-duration: 10s;
+}
+.background-objects li:nth-child(7) {
+    left: 10%;
+    height: 160px;
+    width: 160px;
+    animation-delay: 7s;
+    animation-duration: 8s;
+}
+.background-objects li:nth-child(8) {
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    animation-delay: 15s;
+    animation-duration: 30s;
+}
+.background-objects li:nth-child(9) {
+    left: 20%;
+    height: 25px;
+    width: 25px;
+    animation-delay: 3s;
+    animation-duration: 35s;
+}
+.background-objects li:nth-child(10) {
+    left: 55%;
+    height: 160px;
+    width: 160px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}

@@ -14,7 +14,7 @@ const documentReady = () => {
     const headerNavThemeIconMoon = document.getElementById("header-nav-theme-icon-moon");
     const headerNavThemeIconSun = document.getElementById("header-nav-theme-icon-sun");
     const menuItems = document.querySelectorAll(".header-nav-menu-link-item");
-    const sections = document.querySelectorAll(".section");
+    const sections = document.querySelectorAll(".menu-section");
 
     const documentScroll = () => {
         var current = "";

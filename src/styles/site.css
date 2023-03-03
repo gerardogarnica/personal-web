@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./home.css);
+@import url(./bganimation.css);
 @import url(./about.css);
 @import url(./experience.css);
 @import url(./projects.css);
@@ -19,6 +20,7 @@
     --secondary-text-color: #0E1015;
     --text-highlight-color: #F0DB4F;
     --contacts-background-color: rgba(0, 85, 170, 0.8);
+    --background-objects-color: rgba(255, 255, 255, 0.4);
     --all-transitions: all 0.5s ease;
 }
 
@@ -39,6 +41,7 @@
     --secondary-text-color: #FDF0E0;
     --text-highlight-color: #6C4AB6;
     --contacts-background-color: rgba(178, 200, 223, 0.8);
+    --background-objects-color: rgba(0, 0, 0, 0.4);
 }
 .body-no-scroll {
     overflow-y: hidden;
@@ -54,6 +57,9 @@
     justify-content: center;
     line-height: 1.5;
     padding-top: 4rem;
+}
+.section-container {
+    margin-bottom: 8em;
 }
 .section-title {
     color: var(--text-highlight-color);
