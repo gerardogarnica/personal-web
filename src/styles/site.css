@@ -2,6 +2,7 @@
 @import url(./home.css);
 @import url(./experience.css);
 @import url(./projects.css);
+@import url(./about.css);
 @import url(./contact.css);
 
 :root {
@@ -17,6 +18,7 @@
     --text-color: #FDF0E0;
     --secondary-text-color: #0E1015;
     --text-highlight-color: #F2F7A1;
+    --contacts-background-color: rgba(0, 85, 170, 0.8);
     --all-transitions: all 0.5s ease;
 }
 
@@ -36,6 +38,7 @@
     --text-color: #0E1015;
     --secondary-text-color: #FDF0E0;
     --text-highlight-color: #6C4AB6;
+    --contacts-background-color: rgba(178, 200, 223, 0.8);
 }
 .body-no-scroll {
     overflow-y: hidden;
@@ -53,10 +56,13 @@
     padding-top: 4rem;
 }
 .section-title {
+    color: var(--text-highlight-color);
     font-size: 2rem;
     font-weight: 500;
     padding-top: 0.5em;
     text-align: center;
+    text-decoration: underline dashed;
+    text-transform: uppercase;
 }
 .section-info {
     font-size: 12px;
@@ -83,7 +89,7 @@
     }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 72.1em) {
     .section-container {
         width: 70%;
     }

@@ -50,41 +50,6 @@
     padding: 0 0.5em;
 }
 
-.home-curriculum {
-    background-color: var(--secondary-highlight-color);
-    opacity: 0.8;
-    border-radius: 0.5em;
-    font-size: 12px;
-    font-weight: 600;
-    height: 2.6rem;
-    margin-top: 10px;
-    place-self: center;
-    width: 200px;
-}
-.home-curriculum:hover {
-    background-color: var(--secondary-highlight-color);
-    opacity: 1;
-}
-.home-curriculum svg {
-    height: 30px;
-}
-.home-curriculum a {
-    display: inline-flex;
-    align-items: center;
-    color: var(--secondary-text-color);
-    height: inherit;
-    justify-content: center;
-    text-decoration: none;
-    width: inherit;
-}
-.home-curriculum span {
-    height: 30px;
-}
-.home-curriculum-text {
-    margin-top: 10px;
-    padding: 0 12px;
-}
-
 .home-picture {
     display: flex;
     justify-content: center;
@@ -93,13 +58,13 @@
 
 .home-picture-img {
     border-radius: 50%;
-    width: 50%;
+    width: 70%;
 }
 
 @media (min-width: 46em) {
     .home-container {
         display: grid;
-        grid-template-columns: 2fr 25em;
+        grid-template-columns: 2fr 18em;
     }
 
     .home-info {
@@ -108,7 +73,7 @@
     }
 
     .home-info h1 {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
 
     .home-info h2 {
@@ -123,28 +88,33 @@
         padding: 0;
     }
 
-    .home-curriculum {
-        font-size: 15px;
-        height: 3rem;
-        margin-top: 20px;
-        place-self: start;
-        width: 250px;
-    }
-    .home-curriculum a:hover {
-        font-size: 16px;
-        transition-duration: 200ms;
-    }
-    .home-curriculum-text {
-        margin-top: 8px;
-    }
-
     .home-picture-img {
         width: 100%;
     }
 }
 
-@media (min-width: 70em) {
-    .home-picture-img {
-        width: 100%;
+@media (min-width: 64em) {
+    .home-container {
+        grid-template-columns: 2fr 20em;
+    }
+}
+
+@media (min-width: 77em) {
+    .home-container {
+        grid-template-columns: 2fr 22em;
+    }
+
+    .home-info h1 {
+        font-size: 3.4rem;
+    }
+}
+
+@media (min-width: 82em) {
+    .home-container {
+        grid-template-columns: 2fr 25em;
+    }
+
+    .home-info h1 {
+        font-size: 3.5rem;
     }
 }

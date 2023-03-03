@@ -1,5 +1,5 @@
 .contacts {
-    background-color: var(--header-background-color);
+    background-color: var(--contacts-background-color);
     position: fixed;
     bottom: 1rem;
     left: calc(50% - 128px);
