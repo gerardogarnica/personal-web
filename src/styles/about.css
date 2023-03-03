@@ -1,0 +1,161 @@
+.about-container h2 {
+    color: var(--text-highlight-color);
+    letter-spacing: 3px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.about-picture {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.about-picture img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.about-info {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-info b {
+    color: var(--text-highlight-color);
+}
+.about-info p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 8px 0;
+    padding: 0 0.5em;
+}
+
+.about-curriculum {
+    background-color: var(--secondary-highlight-color);
+    opacity: 0.8;
+    border-radius: 0.5em;
+    font-size: 12px;
+    font-weight: 600;
+    height: 2.6rem;
+    margin-top: 10px;
+    place-self: center;
+    width: 200px;
+}
+.about-curriculum:hover {
+    background-color: var(--secondary-highlight-color);
+    opacity: 1;
+}
+.about-curriculum svg {
+    height: 30px;
+}
+.about-curriculum a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--secondary-text-color);
+    height: inherit;
+    justify-content: center;
+    text-decoration: none;
+    width: inherit;
+}
+.about-curriculum span {
+    height: 30px;
+}
+.about-curriculum-text {
+    margin-top: 10px;
+    padding: 0 12px;
+}
+
+.about-info-skills {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-gap: 3em;
+    justify-items: center;
+    margin-bottom: 7em;
+    padding: 0.75em 2.25em;
+}
+.about-info-skills img {
+    max-height: 48px;
+}
+.about-info-skills img:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.about-info-skills-card {
+    background-color: var(--primary-highlight-color);
+    border-radius: 10px;
+    padding: 20px 12px;
+}
+.about-info-skills-card h3 {
+    border-bottom: var(--text-color) solid 2px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    padding-bottom: 0.6em;
+    text-align: center;
+}
+
+.about-info-skills-card-details {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-gap: 3em;
+    padding: 0.75em 1.25em;
+}
+
+@media (min-width: 46em) {
+    .about-picture {
+        justify-content: flex-start;
+        min-width: 425px;
+    }
+    .about-picture img {
+        width: 80%;
+    }
+
+    .about-info-container {
+        flex-direction: row;
+    }
+
+    .about-info {
+        gap: 20px;
+        text-align: start;
+    }
+    .about-info p {
+        font-size: 16px;
+        margin: 12px 0;
+        padding: 0;
+    }
+
+    .about-curriculum {
+        font-size: 15px;
+        height: 3rem;
+        margin-top: 20px;
+        place-self: start;
+        width: 250px;
+    }
+    .about-curriculum a:hover {
+        font-size: 16px;
+        transition-duration: 200ms;
+    }
+    .about-curriculum-text {
+        margin-top: 8px;
+    }
+
+    .about-info-skills {
+        grid-template-columns: repeat(8 ,minmax(0,1fr));
+    }
+    .about-info-skills img {
+        max-height: 54px;
+    }
+
+    .about-info-skills-card h3 {
+        font-size: 18px;
+    }
+}
