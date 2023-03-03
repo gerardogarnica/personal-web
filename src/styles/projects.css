@@ -1,3 +1,7 @@
+.projects-container {
+    margin-bottom: 8em;
+}
+
 .projects-info {
     display: grid;
     gap: 1em;

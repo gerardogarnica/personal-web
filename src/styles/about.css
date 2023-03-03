@@ -1,8 +1,11 @@
-.about-container h2 {
+.about-container h2,
+.about-container h3 {
     color: var(--text-highlight-color);
     letter-spacing: 3px;
-    margin-top: 2em;
     text-align: center;
+}
+.about-container h3 {
+    margin-top: 4em;
 }
 
 .about-info-container {
@@ -79,7 +82,6 @@
     grid-template-columns: repeat(4,minmax(0,1fr));
     grid-gap: 3em;
     justify-items: center;
-    margin-bottom: 7em;
     padding: 0.75em 2.25em;
 }
 .about-info-skills img {

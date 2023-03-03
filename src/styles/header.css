@@ -171,6 +171,16 @@
 }
 
 @media (min-width: 46em) {
+    .header-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-nav-container {
+        width: 70%;
+        max-width: 1200px;
+    }
+
     .header-nav-toggle {
         display: none;
     }
