@@ -58,9 +58,6 @@
     line-height: 1.5;
     padding-top: 4rem;
 }
-.section-container {
-    margin-bottom: 8em;
-}
 .section-title {
     color: var(--text-highlight-color);
     font-size: 2rem;
@@ -75,6 +72,11 @@
     letter-spacing: 1px;
     margin: 8px 0;
     padding: 0 1.2em;
+}
+
+.wave-section {
+    background: linear-gradient(270deg, var(--primary-theme-color), var(--secondary-theme-color) 30%);
+    display: flex;
 }
 
 @media (min-width: 46em) {
