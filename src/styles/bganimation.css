@@ -20,8 +20,8 @@
 
 .background-objects li:nth-child(1) {
     left: 25%;
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     animation-delay: 0s;
     animation-duration: 6s;
 }
@@ -55,15 +55,15 @@
 }
 .background-objects li:nth-child(6) {
     left: 75%;
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     animation-delay: 3s;
     animation-duration: 10s;
 }
 .background-objects li:nth-child(7) {
     left: 10%;
-    height: 160px;
-    width: 160px;
+    height: 80px;
+    width: 80px;
     animation-delay: 7s;
     animation-duration: 8s;
 }
@@ -83,11 +83,31 @@
 }
 .background-objects li:nth-child(10) {
     left: 55%;
-    height: 160px;
-    width: 160px;
+    height: 80px;
+    width: 80px;
     animation-delay: 1s;
     animation-duration: 10s;
 }
+
+@media (min-width: 46em) {
+    .background-objects li:nth-child(1) {
+        height: 80px;
+        width: 80px;
+    }
+    .background-objects li:nth-child(6) {
+        height: 120px;
+        width: 120px;
+    }
+    .background-objects li:nth-child(7) {
+        height: 160px;
+        width: 160px;
+    }
+    .background-objects li:nth-child(10) {
+        height: 160px;
+        width: 160px;
+    }
+}
+
 
 @keyframes animate {
     0%{
