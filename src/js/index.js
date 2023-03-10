@@ -15,6 +15,7 @@ const documentReady = () => {
     const headerNavThemeIconSun = document.getElementById("header-nav-theme-icon-sun");
     const menuItems = document.querySelectorAll(".header-nav-menu-link-item");
     const sections = document.querySelectorAll(".menu-section");
+    const topLanguagesImage = document.getElementById("top-languages-image");
 
     const documentScroll = () => {
         var current = "";
@@ -49,10 +50,20 @@ const documentReady = () => {
             localStorage.setItem("darkMode", "false");
             headerNavLogo.classList.remove("header-nav-logo-dark");
             headerNavLogo.classList.add("header-nav-logo-light");
+            setTopLanguagesImage(false);
         } else {
             localStorage.setItem("darkMode", "true");
             headerNavLogo.classList.add("header-nav-logo-dark");
             headerNavLogo.classList.remove("header-nav-logo-light");
+            setTopLanguagesImage(true);
+        }
+    }
+
+    const setTopLanguagesImage = (isDarkMode) => {
+        if (isDarkMode === true) {
+            topLanguagesImage.src = "https://github-readme-stats.vercel.app/api/top-langs?username=gerardogarnica&bg_color=D8D0C8&text_color=0E1015&title_color=0E1015&show_icons=true&hide_border=true&locale=es&layout=compact&langs_count=6&exclude_repo=AuroraFramework"
+        } else {
+            topLanguagesImage.src = "https://github-readme-stats.vercel.app/api/top-langs?username=gerardogarnica&bg_color=3C3F43&text_color=FDF0E0&title_color=FDF0E0&show_icons=true&hide_border=true&locale=es&layout=compact&langs_count=6&exclude_repo=AuroraFramework"
         }
     }
 
@@ -62,12 +73,14 @@ const documentReady = () => {
         headerNavLogo.classList.remove("header-nav-logo-light");
         headerNavThemeIconMoon.classList.remove("active");
         headerNavThemeIconSun.classList.add("active");
+        setTopLanguagesImage(true);
     } else {
         body.classList.add("body-light");
         headerNavLogo.classList.remove("header-nav-logo-dark");
         headerNavLogo.classList.add("header-nav-logo-light");
         headerNavThemeIconMoon.classList.add("active");
         headerNavThemeIconSun.classList.remove("active");
+        setTopLanguagesImage(false);
     }
 
     menuItems.forEach((link) =>
