@@ -77,6 +77,65 @@
       ]
     }
   ],
+  "projects": [
+    {
+      "id": 0,
+      "name": "Aurora Platform - Back End",
+      "description": "Proyecto backend con API's de administración de la plataforma de aplicaciones Aurora Soft con .NET 6, C#, SQL Server, MongoDB y Redis.",
+      "imageFile": "assets/projects/project-aurora-web.jpg",
+      "siteUri": null,
+      "githubUri": "https://github.com/gerardogarnica/AuroraPlatform",
+      "tags": [
+        "C#",
+        ".NET 6",
+        "SQL Server",
+        "MongoDB",
+        "Redis",
+        "RabbitMQ",
+        "Docker"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Aurora Platform - Front End",
+      "description": "Proyecto frontend para la administración de la plataforma de aplicaciones Aurora Soft con Angular, HTML5, CSS3 y TypeScript.",
+      "imageFile": "assets/projects/project-aurora-web.jpg",
+      "siteUri": "https://angularstore-8dd27.web.app",
+      "githubUri": "https://github.com/gerardogarnica/aurora-platform",
+      "tags": [
+        "Angular",
+        "HTML5",
+        "CSS3",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Portafolio Personal",
+      "description": "Portafolio personal con información acerca de mi experiencia y proyectos publicos.",
+      "imageFile": "assets/projects/project-personal-web.jpg",
+      "siteUri": null,
+      "githubUri": "https://github.com/gerardogarnica/personal-web",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Portafolio Personal",
+      "description": "Portafolio personal con información acerca de mi experiencia y proyectos publicos.",
+      "imageFile": "assets/projects/project-personal-web.jpg",
+      "siteUri": null,
+      "githubUri": "https://github.com/gerardogarnica/personal-web",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ]
+    }
+  ],
   "about": {
     "mainDescription": "+16 años de experiencia en desarrollo back-end para soluciones empresariales con <b>.NET</b> y <b>C#</b>, construyendo API's con enfoque en el uso de patrones y mejores prácticas en diseño de aplicaciones.",
     "secondaryDescription": "Apasionado por el aprendizaje y por la aplicación de nuevas tecnologías. Me agrada ser miembro de equipos colaborativos donde todos podamos aprender de los demás.",

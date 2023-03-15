@@ -3,6 +3,7 @@ import data from '../data/site-ES.json' assert { type: 'json' };
 import setHomeInfo from './home.js';
 import setAboutInfo from './about.js';
 import setExperiences from './experience.js';
+import setProjects from './projects.js';
 import setSectionTitles from './sections.js';
 
 const documentReady = () => {
@@ -94,6 +95,7 @@ const documentReady = () => {
     setHomeInfo(data);
     setAboutInfo(data);
     setExperiences(data);
+    setProjects(data);
     setSectionTitles(data);
 
     document.addEventListener('scroll', documentScroll);

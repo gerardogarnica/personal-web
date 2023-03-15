@@ -105,7 +105,7 @@
     background-color: var(--secondary-highlight-color);
     color: var(--secondary-text-color);
     opacity: 0.8;
-    transition-duration: 200ms;
+    transition-duration: var(--all-transitions);
 }
 .about-info-skill-img {
     height: 55px;
@@ -156,7 +156,7 @@
     }
 
     .about-info-skills {
-        grid-template-columns: repeat(6 ,minmax(0,1fr));
+        grid-template-columns: repeat(6,minmax(0,1fr));
         grid-gap: 2em 1em;
     }
     .about-info-skill {
