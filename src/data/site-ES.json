@@ -110,13 +110,13 @@
       },
       {
         "id": 5,
-        "title": "jQuery",
-        "imageFile": "jquery.svg"
+        "title": "TypeScript",
+        "imageFile": "typescript.svg"
       },
       {
         "id": 6,
-        "title": "React",
-        "imageFile": "react.svg"
+        "title": "jQuery",
+        "imageFile": "jquery.svg"
       },
       {
         "id": 7,
@@ -125,41 +125,51 @@
       },
       {
         "id": 8,
+        "title": "React",
+        "imageFile": "react.svg"
+      },
+      {
+        "id": 9,
         "title": "SQL Server",
         "imageFile": "microsoft-sql-server.svg"
       },
       {
-        "id": 9,
+        "id": 10,
+        "title": "MySQL",
+        "imageFile": "mysql.svg"
+      },
+      {
+        "id": 11,
         "title": "Git",
         "imageFile": "git.svg"
       },
       {
-        "id": 10,
+        "id": 12,
         "title": "Docker",
         "imageFile": "docker.svg"
       },
       {
-        "id": 11,
+        "id": 13,
         "title": "ElasticSearch",
         "imageFile": "elasticsearch.svg"
       },
       {
-        "id": 12,
+        "id": 14,
         "title": "Kibana",
         "imageFile": "kibana.svg"
       },
       {
-        "id": 13,
+        "id": 15,
         "title": "MongoDB",
         "imageFile": "mongodb.svg"
       },
       {
-        "id": 14,
+        "id": 16,
         "title": "Redis",
         "imageFile": "redis.svg"
       },
       {
-        "id": 15,
+        "id": 17,
         "title": "RabbitMQ",
         "imageFile": "rabbitmq.svg"
       }

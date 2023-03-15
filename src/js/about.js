@@ -21,7 +21,11 @@ const getSkillsHtml = (skills) => {
   let skillsHtml = ''
 
   for (let i = 0; i < skills.length; i++) {
-    skillsHtml += `<img src="./assets/skills/${skills[i].imageFile}" loading="lazy" alt="${skills[i].title}" title="${skills[i].title}" />`
+    skillsHtml += `
+      <div class="about-info-skill" title="${skills[i].title}">
+        <div class="about-info-skill-img"><img src="./assets/skills/${skills[i].imageFile}" loading="lazy" alt="${skills[i].title}" /></div>
+        <p>${skills[i].title}</p>
+      </div>`
   }
 
   return skillsHtml
