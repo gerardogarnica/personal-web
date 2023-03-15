@@ -153,7 +153,7 @@
 .header-nav-menu-link-list li a.active,
 .header-nav-menu-link-list li a:focus,
 .header-nav-menu-link-list li a:hover {
-    color: var(--primary-highlight-color);
+    color: var(--text-highlight-color);
 }
 .header-nav-menu-link-list li a::after {
     background-color: var(--secondary-highlight-color);

@@ -11,14 +11,14 @@
     --header-background-color: #0055AA;
     --primary-theme-color: #6B728E;
     --secondary-theme-color: #474E68;
-    --primary-highlight-color: #579BB1;
+    --primary-highlight-color: #106699;
     --secondary-highlight-color: #FDF0E0;
     --max-width-container: 1024px;
     --header-text-font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     --main-text-font-family: Poppins;
     --text-color: #FDF0E0;
     --secondary-text-color: #0E1015;
-    --text-highlight-color: #F0DB4F;
+    --text-highlight-color: #FFDB00;
     --contacts-background-color: rgba(0, 85, 170, 0.8);
     --background-objects-color: rgba(255, 255, 255, 0.4);
     --all-transitions: all 0.5s ease;
@@ -39,7 +39,7 @@
     --secondary-highlight-color: #0E1015;
     --text-color: #0E1015;
     --secondary-text-color: #FDF0E0;
-    --text-highlight-color: #6C4AB6;
+    --text-highlight-color: #004AFF;
     --contacts-background-color: rgba(178, 200, 223, 0.8);
     --background-objects-color: rgba(0, 0, 0, 0.4);
 }
