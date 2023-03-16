@@ -96,16 +96,28 @@
     }
     .section-container {
         padding-top: 1em;
-        width: 80%;
+        width: 90%;
     }
     .section-title {
         font-size: 3rem;
         padding-top: 0;
     }
     .section-info {
-        font-size: 16px;
+        font-size: 14px;
         margin: 12px 0;
         padding: 0;
+    }
+}
+
+@media (min-width: 60em) {
+    .section-info {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 64em) {
+    .section-container {
+        width: 80%;
     }
 }
 

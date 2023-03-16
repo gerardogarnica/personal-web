@@ -177,8 +177,7 @@
     }
 
     .header-nav-container {
-        width: 70%;
-        max-width: 1200px;
+        width: 90%;
     }
 
     .header-nav-toggle {
@@ -204,5 +203,18 @@
     }
     .header-nav-menu-link-list li a {
         font-size: 16px;
+    }
+}
+
+@media (min-width: 64em) {
+    .header-nav-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 72.1em) {
+    .header-nav-container {
+        width: 70%;
+        max-width: 1200px;
     }
 }

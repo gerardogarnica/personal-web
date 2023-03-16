@@ -126,7 +126,6 @@
     }
 
     .projects-info-content {
-        font-size: 14px;
         padding-top: 0;
         padding-bottom: 0;
         transform: translateY(calc(100% - 2.5rem));
@@ -135,6 +134,12 @@
         font-size: 16px;
     }
     .projects-info-content h3 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 60em) {
+    .projects-info-content {
         font-size: 14px;
     }
 }
