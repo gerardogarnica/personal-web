@@ -111,15 +111,15 @@
     },
     {
       "id": 2,
-      "name": "Portafolio Personal",
-      "description": "Portafolio personal con información acerca de mi experiencia y proyectos publicos.",
-      "imageFile": "assets/projects/project-personal-web.jpg",
-      "siteUri": null,
-      "githubUri": "https://github.com/gerardogarnica/personal-web",
+      "name": "Clon de Trello",
+      "description": "Clon de Trello utilizando la API Fake Trello de Platzi.",
+      "imageFile": "assets/projects/project-trello-clone.jpg",
+      "siteUri": "https://trello-clone-d301b3.netlify.app",
+      "githubUri": "https://github.com/gerardogarnica/trello-clone",
       "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
+        "Angular",
+        "TypeScript",
+        "TailwindCSS"
       ]
     },
     {
