@@ -62,9 +62,9 @@ const documentReady = () => {
 
     const setTopLanguagesImage = (isDarkMode) => {
         if (isDarkMode === true) {
-            topLanguagesImage.src = "https://github-readme-stats.vercel.app/api/top-langs?username=gerardogarnica&bg_color=D8D0C8&text_color=0E1015&title_color=0E1015&show_icons=true&hide_border=true&locale=es&layout=compact&langs_count=6&exclude_repo=AuroraFramework"
+            topLanguagesImage.src = "https://github-readme-stats.vercel.app/api/top-langs?username=gerardogarnica&bg_color=D8D0C8&text_color=0E1015&title_color=0E1015&show_icons=true&hide_border=true&locale=es&layout=compact&langs_count=6"
         } else {
-            topLanguagesImage.src = "https://github-readme-stats.vercel.app/api/top-langs?username=gerardogarnica&bg_color=3C3F43&text_color=FDF0E0&title_color=FDF0E0&show_icons=true&hide_border=true&locale=es&layout=compact&langs_count=6&exclude_repo=AuroraFramework"
+            topLanguagesImage.src = "https://github-readme-stats.vercel.app/api/top-langs?username=gerardogarnica&bg_color=3C3F43&text_color=FDF0E0&title_color=FDF0E0&show_icons=true&hide_border=true&locale=es&layout=compact&langs_count=6"
         }
     }
 
