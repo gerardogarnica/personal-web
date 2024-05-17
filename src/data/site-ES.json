@@ -80,14 +80,14 @@
   "projects": [
     {
       "id": 0,
-      "name": "Aurora Platform - Back End",
-      "description": "Proyecto backend con API's de administración de la plataforma de aplicaciones Aurora Soft con .NET 6, C#, SQL Server, MongoDB y Redis.",
+      "name": "Aurora Biz Suite - Backend",
+      "description": "Aurora Biz Suite es una plataforma de un ERP de código abierto realizada con .NET 8, C#, SQL Server, MongoDB y Redis.",
       "imageFile": "assets/projects/project-aurora-web.jpg",
       "siteUri": null,
       "githubUri": "https://github.com/gerardogarnica/AuroraPlatform",
       "tags": [
         "C#",
-        ".NET 6",
+        ".NET 8",
         "SQL Server",
         "MongoDB",
         "Redis",
