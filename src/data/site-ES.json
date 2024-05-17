@@ -84,7 +84,7 @@
       "description": "Aurora Biz Suite es una plataforma de un ERP de código abierto realizada con .NET 8, C#, SQL Server, MongoDB y Redis.",
       "imageFile": "assets/projects/project-aurora-web.jpg",
       "siteUri": null,
-      "githubUri": "https://github.com/gerardogarnica/AuroraPlatform",
+      "githubUri": "https://github.com/gerardogarnica/aurora-bizsuite-api",
       "tags": [
         "C#",
         ".NET 8",
