@@ -1,5 +1,5 @@
 'use strict';
-import data from '../data/site-ES.json' assert { type: 'json' };
+import data from '../data/site-ES.json' with { type: 'json' };
 import setHomeInfo from './home.js';
 import setAboutInfo from './about.js';
 import setExperiences from './experience.js';
