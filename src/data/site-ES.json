@@ -82,7 +82,7 @@
       "id": 0,
       "name": "Aurora Biz Suite - Backend",
       "description": "Aurora Biz Suite es una plataforma de un ERP de código abierto realizada con .NET 8, C#, SQL Server, MongoDB y Redis.",
-      "imageFile": "assets/projects/project-aurora-web.jpg",
+      "imageFile": "assets/projects/project-aurora-api.png",
       "siteUri": null,
       "githubUri": "https://github.com/gerardogarnica/aurora-bizsuite-api",
       "tags": [
